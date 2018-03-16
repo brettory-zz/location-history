@@ -144,7 +144,7 @@ sfzoom + geom_point(data = locationdf, aes(x = locationdf$lon, y = locationdf$la
 
 I ended up not doing anything with time stamp in this analysis, but it would be interesting for future projects to look at where I am at certain times of day and try to assess "home" or "work" based on the hours that I'm there. You could also use the time stamp to distinguish routes from destinations, for example. 
 
-And although it's super easy to access and visualize your location history yourself using the R code above, google has a dashboard to make this process even easier: [https://www.google.com/maps/timeline]. Very interesting and worth checking out! 
+And although it's super easy to access and visualize your location history yourself using the R code above, google has a dashboard to make this process even easier: [https://www.google.com/maps/timeline]. Very interesting and worth checking out! Also, if you're looking for more examples of how to use google location history data, there have been a few excellent tutorials on this by [Shirin's playgRound](https://shiring.github.io/maps/2016/12/30/Standortverlauf_post) and [Visual Cinnamon](https://www.visualcinnamon.com/2014/03/running-paths-in-amsterdam-step-2.html). 
 
 This blog post can be found on [GitHub](https://github.com/brettory/location-history).
 
